@@ -1,0 +1,119 @@
+ser@Tf-aks1:~$ history
+    1  terraform -v
+    2  sudo su
+    3  ls
+    4  pwd
+    5  exit
+    6  terraform 
+    7  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
+    8  terraform
+    9  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+   10  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   11  ls
+   12  sudo apt-get update && sudo apt-get install terraform
+   13  terraform -help
+   14  ls
+   15  terraform -help plan
+   16  touch ~/.bashrc
+   17  terraform -install-autocomplete
+   18  terraform -v
+   19  ls
+   20  open -a Docker
+   21  sudo apt-get install docker -t
+   22  sudo apt-get install docker -y
+   23  service docker start
+   24  sudo service docker start
+   25  sudo service start docker
+   26  pwd
+   27  terraform -v
+   28  mkdir Reddy-Notes
+   29  cd Reddy-Notes/
+   30  ls
+   31  touch terraform-install.txt
+   32  vi terraform-install.txt 
+   33  history
+   34  vi terraform-install.txt 
+   35  clear
+   36  pwd
+   37  ls
+   38  cd Reddy-Notes/
+   39  ls
+   40  vi terraform-install.txt 
+   41  ls
+   42  mkdir Reddy-Aks-Terraform
+   43  cd Reddy-Aks-Terraform/
+   44  git clone https://github.com/HoussemDellai/terraform-course.git
+   45  ls
+   46  cd terraform-course/
+   47  ls
+   48  cd kubernetes_aks
+   49  cd _kubernetes_aks
+   50  ls -ll
+   51  cd _kubernetes_aks
+   52  cd kubernetes_aks
+   53  mv 07_kubernetes_aks Reddy-AKS-Terraform
+   54  cd Reddy-AKS-Terraform/
+   55  ls
+   56  az users list
+   57  sudo apt install azure-cli
+   58  az users list
+   59  az user list
+   60  az --help
+   61  az login
+   62  az user list
+   63  ls
+   64  terraform init
+   65  terraform validate
+   66  cat terraform.tfvars 
+   67  terraform plan
+   68  terraform plan -out aks-azure-tf.tf 
+   69  ls
+   70  terraform plan -out aks-azure-tf.tf -var terraform.tfvars
+   71  terraform plan -out aks-azure-tf.tf
+   72  ls
+   73  terraform apply aks-azure-tf.tf
+   74  vi main.tf 
+   75  terraform plan --var terraform.tfvars -out aks-az.tf
+   76  ls
+   77  cd Reddy-Aks-Terraform/
+   78  ls
+   79  rm -rf terraform-course/
+   80  ls
+   81  mkdir TF-AKS
+   82  cd TF-AKS/
+   83  ls
+   84  git clone git clone https://github.com/hashicorp/learn-terraform-provision-aks-cluster
+   85  clear
+   86  git clone https://github.com/hashicorp/learn-terraform-provision-aks-cluster.git
+   87  ls
+   88  terraform -v
+   89  ls
+   90  \\ls
+   91  cd Reddy-
+   92  cd Reddy-Aks-Terraform/
+   93  ls
+   94  cd TF-AKS/
+   95  ls
+   96  cd learn-terraform-provision-aks-cluster/
+   97  ls
+   98  vi README.md 
+   99  az ad sp create-for-rbac --skip-assignment
+  100  vi terraform.tfvars 
+  101  terraform init
+  102  terraform apply
+  103  az aks get-credentials --resource-group $(terraform output -raw resource_group_name) --name $(terraform output -raw kubernetes_cluster_name)
+  104  az aks browse --resource-group $(terraform output -raw resource_group_name) --name $(terraform output -raw kubernetes_cluster_name)
+  105  kubectl get po
+  106  sudo snap install kubectl
+  107  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  108  ls
+  109  curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+  110  ls
+  111  echo "$(<kubectl.sha256) kubectl" | sha256sum --check
+  112  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+  113  chmod +x kubectl
+  114  ls
+  115  mkdir -p ~/.local/bin/kubectl
+  116  mv ./kubectl ~/.local/bin/kubectl
+  117  kubectl version --client
+  118  history

@@ -1,0 +1,41 @@
+############### USE THE BELOW LINK ########
+
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+
+#COMMANDS###
+1  terraform -v
+    2  sudo su
+    3  ls
+    4  pwd
+    5  exit
+    6  terraform 
+    7  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
+    8  terraform
+    9  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+   10  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   11  ls
+   12  sudo apt-get update && sudo apt-get install terraform
+   13  terraform -help
+   14  ls
+   15  terraform -help plan
+   16  touch ~/.bashrc
+   17  terraform -install-autocomplete
+   18  terraform -v
+   19  ls
+   20  open -a Docker
+   21  sudo apt-get install docker -t
+   22  sudo apt-get install docker -y
+   23  service docker start
+   24  sudo service docker start
+   25  sudo service start docker
+   26  pwd
+   27  terraform -v
+   28  mkdir Reddy-Notes
+   29  cd Reddy-Notes/
+   30  ls
+   31  touch terraform-install.txt
+   32  vi terraform-install.txt 
+   33  history
+
+
